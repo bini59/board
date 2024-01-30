@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "pm2 start ./bin/www --name server --watch"
+    "start": "pm2-runtime start ./bin/www --name server --watch"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
